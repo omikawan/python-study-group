@@ -4,7 +4,7 @@
 Flaskを利用したweb画面を作成してください。
 ページは以下の二つを用意してください。
 index.html テキスト入力フォームと「送信」ボタンが存在し、ボタンを押すと「next.html」の画面に遷移する。
-next.html 「1.」の画面で入力したテキストを表示する画面。「戻る」ボタンが存在し、押下すると「index.html」の画面に遷移する。
+next.html 「index.html」の画面で入力したテキストを表示する画面。「戻る」ボタンが存在し、押下すると「index.html」の画面に遷移する。
 """
 
 from flask import Flask, render_template, request

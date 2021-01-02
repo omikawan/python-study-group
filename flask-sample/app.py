@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 
 # 「/」へアクセスがあった場合の動作
-@app.route("/", methods = ["POST"])
+@app.route("/", methods = ["POST", "GET"])
 def menu():
     return render_template("index.html")
 

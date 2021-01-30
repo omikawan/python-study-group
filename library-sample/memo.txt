@@ -1,0 +1,2 @@
+没サンプル
+・Open Weather Map（https://api.rakuten.net/community/api/open-weather-map）を登録して"x-rapidapi-key"にapikeyを入力すれば使えるはず。
